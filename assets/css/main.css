@@ -1,0 +1,126 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+/* Custom styles for VAL - Elegant Agency */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #0f172a;
+    color: white;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .elegant-card {
+    background-color: rgba(30, 41, 59, 0.6);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(51, 65, 85, 0.5);
+    border-radius: 0.75rem;
+  }
+  
+  .premium-border {
+    border: 1px solid rgba(212, 175, 55, 0.4);
+  }
+  
+  .elegant-text {
+    background: linear-gradient(to right, #3b82f6, #6366f1, #d4af37);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .hero-gradient {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+  }
+  
+  .voice-card {
+    background-color: rgba(30, 41, 59, 0.6);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(51, 65, 85, 0.5);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    transition: all 0.5s ease;
+  }
+  
+  .voice-card:hover {
+    border-color: rgba(59, 130, 246, 0.5);
+    box-shadow: 0 20px 25px -5px rgba(59, 130, 246, 0.1);
+    transform: scale(1.02);
+  }
+  
+  .btn-elegant {
+    background: linear-gradient(to right, #3b82f6, #6366f1);
+    color: white;
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-elegant:hover {
+    background: linear-gradient(to right, #6366f1, #3b82f6);
+    box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.2);
+  }
+  
+  .btn-secondary-elegant {
+    background-color: rgba(30, 41, 59, 0.6);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(51, 65, 85, 0.5);
+    border-radius: 0.75rem;
+    color: white;
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-secondary-elegant:hover {
+    border-color: rgba(59, 130, 246, 0.5);
+    background-color: rgba(51, 65, 85, 0.5);
+  }
+  
+  .nav-elegant {
+    background-color: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid #334155;
+  }
+  
+  .stat-card {
+    background-color: rgba(30, 41, 59, 0.6);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(51, 65, 85, 0.5);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    text-align: center;
+    border-left: 4px solid #3b82f6;
+  }
+}
+
+@layer utilities {
+  .text-shadow-elegant {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  }
+  
+  .text-glow-elegant {
+    text-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+  }
+} 
+
+#particles-bg {
+  position: absolute;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  display: block;
+  pointer-events: none;
+  background: transparent;
+} 

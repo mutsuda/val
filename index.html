@@ -1,0 +1,201 @@
+---
+layout: default
+title: Home
+description: Agencia de voces profesionales.
+---
+
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <!-- Fondo de partículas animadas -->
+    <canvas id="particles-bg" class="absolute inset-0 w-full h-full"></canvas>
+    <!-- Content -->
+    <div class="relative z-10 text-center max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h1 class="text-6xl md:text-8xl font-display font-bold mb-8 text-white">
+            VAL
+        </h1>
+        <h2 class="text-2xl md:text-3xl font-light mb-8 text-slate-300 tracking-wide">
+            Agencia de voces profesionales
+        </h2>
+        <div class="flex flex-col sm:flex-row gap-6 justify-center">
+            <a href="/voces" class="btn-elegant">
+                Ver Voces
+            </a>
+            <a href="/sobre" class="btn-secondary-elegant">
+                Sobre VAL
+            </a>
+        </div>
+    </div>
+    <!-- Scroll indicator -->
+    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+        <div class="w-6 h-10 border-2 border-slate-600 rounded-full flex justify-center">
+            <div class="w-1 h-3 bg-slate-600 rounded-full mt-2 animate-bounce"></div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Voices Section -->
+<section class="py-24 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-20">
+            <h2 class="text-4xl md:text-5xl font-display font-bold mb-8">
+                Voces
+            </h2>
+            <p class="text-xl text-slate-400 max-w-4xl mx-auto leading-relaxed">
+                Selección de voces profesionales para proyectos de alto nivel.
+            </p>
+        </div>
+        
+        <!-- Voices grid -->
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-4">
+            <!-- Voice Card 1 -->
+            <div class="voice-card group">
+                <div class="relative mb-4">
+                    <div class="w-full h-32 bg-slate-800 rounded-lg flex items-center justify-center border border-slate-700">
+                        <div class="w-12 h-12 bg-accent-blue rounded-full flex items-center justify-center">
+                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                
+                <h3 class="text-lg font-display font-bold mb-1">Carlos Mendoza</h3>
+                <p class="text-sm text-slate-400 mb-3">Corporativo & Comercial</p>
+                
+                <div class="flex flex-wrap gap-1 mb-4">
+                    <span class="bg-slate-700 text-slate-300 px-2 py-1 rounded text-xs border border-slate-600">Corporativo</span>
+                    <span class="bg-slate-700 text-slate-300 px-2 py-1 rounded text-xs border border-slate-600">Comercial</span>
+                </div>
+                
+                <button class="w-full bg-slate-700 text-slate-300 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 hover:bg-accent-blue hover:text-white">
+                    <svg class="w-4 h-4 inline mr-1" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                    Demo
+                </button>
+            </div>
+            
+            <!-- Voice Card 2 -->
+            <div class="voice-card group">
+                <div class="relative mb-4">
+                    <div class="w-full h-32 bg-slate-800 rounded-lg flex items-center justify-center border border-slate-700">
+                        <div class="w-12 h-12 bg-accent-indigo rounded-full flex items-center justify-center">
+                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                
+                <h3 class="text-lg font-display font-bold mb-1">Ana García</h3>
+                <p class="text-sm text-slate-400 mb-3">Narrativa & Audiobooks</p>
+                
+                <div class="flex flex-wrap gap-1 mb-4">
+                    <span class="bg-slate-700 text-slate-300 px-2 py-1 rounded text-xs border border-slate-600">Narrativa</span>
+                    <span class="bg-slate-700 text-slate-300 px-2 py-1 rounded text-xs border border-slate-600">Audiobooks</span>
+                </div>
+                
+                <button class="w-full bg-slate-700 text-slate-300 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 hover:bg-accent-blue hover:text-white">
+                    <svg class="w-4 h-4 inline mr-1" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                    Demo
+                </button>
+            </div>
+            
+            <!-- Voice Card 3 -->
+            <div class="voice-card group">
+                <div class="relative mb-4">
+                    <div class="w-full h-32 bg-slate-800 rounded-lg flex items-center justify-center border border-slate-700">
+                        <div class="w-12 h-12 bg-accent-gold rounded-full flex items-center justify-center">
+                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                
+                <h3 class="text-lg font-display font-bold mb-1">Miguel Torres</h3>
+                <p class="text-sm text-slate-400 mb-3">Publicidad & Gaming</p>
+                
+                <div class="flex flex-wrap gap-1 mb-4">
+                    <span class="bg-slate-700 text-slate-300 px-2 py-1 rounded text-xs border border-slate-600">Publicidad</span>
+                    <span class="bg-slate-700 text-slate-300 px-2 py-1 rounded text-xs border border-slate-600">Gaming</span>
+                </div>
+                
+                <button class="w-full bg-slate-700 text-slate-300 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 hover:bg-accent-blue hover:text-white">
+                    <svg class="w-4 h-4 inline mr-1" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                    Demo
+                </button>
+            </div>
+            
+            <!-- Voice Card 4 -->
+            <div class="voice-card group">
+                <div class="relative mb-4">
+                    <div class="w-full h-32 bg-slate-800 rounded-lg flex items-center justify-center border border-slate-700">
+                        <div class="w-12 h-12 bg-accent-blue rounded-full flex items-center justify-center">
+                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                
+                <h3 class="text-lg font-display font-bold mb-1">Laura Fernández</h3>
+                <p class="text-sm text-slate-400 mb-3">Comercial & Promocional</p>
+                
+                <div class="flex flex-wrap gap-1 mb-4">
+                    <span class="bg-slate-700 text-slate-300 px-2 py-1 rounded text-xs border border-slate-600">Comercial</span>
+                    <span class="bg-slate-700 text-slate-300 px-2 py-1 rounded text-xs border border-slate-600">Promocional</span>
+                </div>
+                
+                <button class="w-full bg-slate-700 text-slate-300 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 hover:bg-accent-blue hover:text-white">
+                    <svg class="w-4 h-4 inline mr-1" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                    Demo
+                </button>
+            </div>
+            
+            <!-- Voice Card 5 -->
+            <div class="voice-card group">
+                <div class="relative mb-4">
+                    <div class="w-full h-32 bg-slate-800 rounded-lg flex items-center justify-center border border-slate-700">
+                        <div class="w-12 h-12 bg-accent-indigo rounded-full flex items-center justify-center">
+                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                
+                <h3 class="text-lg font-display font-bold mb-1">Roberto Silva</h3>
+                <p class="text-sm text-slate-400 mb-3">Documental & Educativo</p>
+                
+                <div class="flex flex-wrap gap-1 mb-4">
+                    <span class="bg-slate-700 text-slate-300 px-2 py-1 rounded text-xs border border-slate-600">Documental</span>
+                    <span class="bg-slate-700 text-slate-300 px-2 py-1 rounded text-xs border border-slate-600">Educativo</span>
+                </div>
+                
+                <button class="w-full bg-slate-700 text-slate-300 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 hover:bg-accent-blue hover:text-white">
+                    <svg class="w-4 h-4 inline mr-1" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                    Demo
+                </button>
+            </div>
+        </div>
+        
+        <!-- CTA -->
+        <div class="text-center mt-16">
+            <a href="/voces" class="btn-secondary-elegant text-lg px-8 py-4">
+                Ver todas las voces
+                <svg class="w-5 h-5 inline ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section> 
