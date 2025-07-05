@@ -7,9 +7,9 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.3.4"
+gem "jekyll", "~> 4.2.0"
 
-# Add missing gems for Jekyll 4.3.4 and Ruby 3.4+ compatibility
+# Add missing gems for Jekyll 4.2.0 compatibility
 gem "csv"
 gem "logger"
 gem "base64"
